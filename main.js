@@ -14,3 +14,7 @@ if (hero.complete && hero.naturalWidth > 0) {
 } else {
   hero.addEventListener('load', reveal, { once: true });
 }
+
+hero.addEventListener('transitionend', (e) => {
+  if (e.propertyName === 'opacity') hero.classList.add('completed');
+});
