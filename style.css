@@ -110,8 +110,6 @@ a {
   height: 100%;
   object-fit: cover;
   object-position: center 40%;
-  filter: blur(6px) brightness(0.5);
-  transform: scale(1.08); /* hide blurred edges */
   opacity: 0;
   transition: opacity 2s ease-out;
 }
