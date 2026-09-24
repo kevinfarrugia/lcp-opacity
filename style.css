@@ -110,19 +110,11 @@ a {
   height: 100%;
   object-fit: cover;
   object-position: center 40%;
-  filter: blur(6px) brightness(0.5);
-  transform: scale(1.08); /* hide blurred edges */
   opacity: 0;
   transition: opacity 2s ease-out;
 }
 .hero__img.is-visible {
   opacity: 1;
-}
-/* .hero__img.completed {
-  filter: blur(6px) brightness(0.25);
-} */
-.hero__img.completed {
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2) inset;
 }
 
 .hero__content {
